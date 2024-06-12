@@ -2,11 +2,12 @@ valor_casa = float(input("Qual o valor da casa? "))  # Não alterar
 salario = float(input("Qual é o salário? "))  # Não alterar
 anos_pagar = int(input("Pagar em quantos anos? "))  # Não alterar
 
-meses = anos_pagar * 12
+meses = anos * 12
 
-prestacao_mensal = valor_casa / meses
+prestacaoMensal = valorCasa / meses
 
-limite_prestacao = salario * 0.3
+limitePrestacao = salario * 0.3
 
-if prestacao_mensal <= limite_prestacao:
+if prestacaoMensal <= limitePrestacao:
+  print(f"O valor da prestacao ficou em {prestacaoMensal:.2f}")
    

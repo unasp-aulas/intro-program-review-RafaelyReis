@@ -6,3 +6,5 @@ while True:
         break
 
     soma += numero
+
+print(f"a soma de todos os numeros é {soma}")
