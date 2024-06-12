@@ -7,4 +7,4 @@ while True:
 
     soma += numero
 
-print(f"a soma de todos os numeros é {soma}")
+print(f"{soma}")

@@ -9,5 +9,5 @@ prestacaoMensal = valorCasa / meses
 limitePrestacao = salario * 0.3
 
 if prestacaoMensal <= limitePrestacao:
-  print(f"O valor da prestacao ficou em {prestacaoMensal:.2f}")
+  print(f"{prestacaoMensal:.2f}")
    
